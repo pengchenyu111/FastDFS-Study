@@ -1,0 +1,9 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  application:
+    name: file
+server:
+  port: 8150
